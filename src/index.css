@@ -11,3 +11,228 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* navbar css */
+.navbar-bg{
+  background-color: aliceblue;
+  padding: 2rem 0;
+  z-index: 99;
+  position: relative;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+}
+
+.navbar li{
+  padding: 0 2rem;
+}
+
+.navbar li a{
+  font-size: 1.7rem;
+  position: relative;
+}
+
+.navbar li a:hover{
+  color: aqua;
+  text-shadow: 0 0.2rem 0.3rem rgb(183,171,255,0.5);
+}
+
+.btn-style{
+  width: 12rem;
+  height: 4rem;
+  border-radius: 2rem;
+  color: black;
+  background-color: red;
+  font-size: 1.6rem;
+}
+
+.btn-style:first-child{
+  margin: 2rem;
+}
+
+.btn-style:hover{
+  border: 0.1rem solid blue;
+  background-color: transparent;
+  color:aquamarine;
+  box-shadow: 0 0.2rem 0.5rem rgba(183,171,255,0.5);
+}
+/* navbar finsihed  */
+
+/* home start  */
+header{
+  background-color: plum;
+  min-height: 100vh;
+  width: 100%;
+}
+.main-hero-container{
+  height: 80vh;
+  display: flex;
+}
+
+.main-hero-container h1{
+  text-transform: capitalize;
+  font-weight: bold;
+  font-weight: 100;
+}
+
+.input-group-text{
+  margin-top: auto;
+  position: relative !important;
+}
+
+.form-control-text{
+  position: absolute;
+  height: 5rem;
+  border: none;
+  outline-style: none;
+  padding-left: 1.5rem !important;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  bottom: 5rem;
+
+}
+
+.input-group-button{
+  position: absolute;
+  right: 27%;
+  color: #fff;
+  background-color:red;
+  bottom: 5.5rem;
+  height: 4rem;
+  width: 20%;
+  border-radius: 2rem; 
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.main-hero-para{
+  font-size: 1.5rem;
+  color: blue;
+  margin: 3rem 0 5rem 0;
+  font-weight: lighter;
+  width: 75%;
+}
+
+.main-hero-container h3{
+  margin-bottom: 10rem ;
+  font-weight:lighter;
+}
+.main-image{
+  position: relative;
+}
+.main-image img{
+  width: 60%;
+  height: 57%;
+  margin-top: 10rem;
+  box-shadow: 0 0.8rem 0.8rem rgba(0,0,0,0.25);
+  border-radius: 1.5rem;
+  position: absolute;
+}
+
+.main-image .main-img2{
+  position: absolute;
+  width: 50%;
+  height: 30%;
+  left: 55%;
+  top: -10%;
+  box-shadow: 0.8rem 0 0.8rem rgba(0,0,0,0.25);
+}
+/* home end */
+
+/* about start  */
+.work-container{
+  width: 80vw;
+  padding: 5rem;
+  box-shadow: 0 0.4rem 1.2rem rgba(0,0,0,0.2);
+  margin-bottom: 10rem;
+  background-color: antiquewhite;
+  border-radius: 0.5rem;
+}
+
+.work-container .main-heading{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 4rem;
+  word-spacing: 1rem;
+}
+
+.work-container-subdiv{
+  padding: 0 2rem;
+}
+
+.work-container .sub-heading{
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.fas{
+  font-size: 2rem;
+  color: brown;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: lightcyan;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin:  2rem auto;
+}
+/* about end  */
+
+/* contact :start */
+.our-services img{ 
+  width: 50%;
+  height: 70%;
+  margin-top: 10rem;
+  box-shadow: rgba(0,0,0,0.25) 0px 0.8rem 0.8rem;
+  border-radius: 1.5rem;
+}
+
+.our-services .mini-title{
+  text-transform: capitalize;
+  font-weight: normal;
+  margin: 3rem 0;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.our-services .main-heading{
+  font-weight: bolder;
+}
+
+.our-services-info{
+  margin-top: 4rem;
+}
+
+.our-services .our-services-number{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 0.1rem solid red;
+  font-size: 1.5rem;
+  color: darkmagenta;
+  display: grid;
+  place-items: center;
+}
+
+.our-services-data{
+  padding-left: 2rem;
+}
+
+.our-services .our-services-data p{
+  margin:1rem 0;
+}
+
+
+/* contact end  */
+
+/* demo section */
+.our-services-rightside-content{
+  padding-left: 8rem;
+}
+/* demo section end  */
